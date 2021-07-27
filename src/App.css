@@ -1,0 +1,62 @@
+	
+*   {
+    color:#000080;
+    font-family: 'Uchen', sans-serif;
+}
+.contenedor
+{
+    width:100%;
+    margin:auto;
+    padding:4em;
+    max-width:1000px;
+    font-family: 'Uchen', sans-serif;
+}
+header
+{
+    margin:auto;
+    width:400px;
+    height:220px;
+    font-size:14px;
+    font-family: 'Uchen', sans-serif;
+}
+section 
+{
+    width:400px;
+    padding:1em;
+    margin:auto;
+    height:220px;
+    font-size:12px;
+    background-color: #eee;
+    font-family: 'Uchen', sans-serif;
+}
+h4
+{
+    text-align:center;
+    font-family: 'Uchen', sans-serif;
+}
+article
+{
+    width:800px;
+    padding:1em;
+    margin:auto;
+    height:150px;
+    font-size:12px;
+    align-content:center;
+    font-family: 'Uchen', sans-serif;
+}
+article img
+{
+    border-radius:50%;
+}
+#carouselExampleControls{
+    margin:auto;
+    width:500px;
+    height:500px;
+}
+
+/*menú*/
+nav 
+{
+    margin:1em;
+    padding:1em;
+}

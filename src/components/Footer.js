@@ -10,7 +10,7 @@ const Footer = () => {
   }, [fullYear]);
 
   return (
-    <Navbar fixed="bottom" bg="dark" variant="dark">
+    <Navbar fixed="bottom" bg="gray" variant="gray">
       <Container>
         <Col lg={12} className="text-center text-muted">
           <div>

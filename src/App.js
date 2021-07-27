@@ -5,11 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Welcome from "./components/Welcome";
-/*
-import Book from "./components/Book/Book";
-import BookList from "./components/Book/BookList";
 
-*/
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import UserList from "./components/User/UserList";
@@ -40,11 +36,6 @@ const App = () => {
             <Switch>
               <Route path="/" exact component={Welcome} />
               <Route path="/home" exact component={Home} />
-              {/*
-              <Route path="/add" exact component={Book} />
-              <Route path="/edit/:id" exact component={Book} />
-              <Route path="/list" exact component={BookList} />
-              */}
               <Route path="/users" exact component={UserList} />
               <Route path="/register" exact component={Register} />
               <Route path="/login" exact component={Login} />
